@@ -5,14 +5,16 @@
   "author": "mahns",
   "private": true,
   "scripts": {
+    "serve": "vue-cli-service serve --open --watch",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@vue/cli-service": "^4.5.14",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.5.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
