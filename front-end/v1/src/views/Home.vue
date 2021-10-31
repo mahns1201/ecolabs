@@ -1,18 +1,27 @@
 <template>
-  <div class="Phrase">
-    Check various economic indicators at a glance.
-  </div>
+  <h1>Home</h1>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Home",
+};
 </script>
 
-<style scoped>
-.Phrase {
-  height: 40px;
+<style>
+body {
+  margin: 0;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+
+  /* font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: rgb(250, 250, 250);
-  background-color: rgb(88, 88, 88);
+  color: #2c3e50;
+  margin-top: 60px; */
 }
 </style>
