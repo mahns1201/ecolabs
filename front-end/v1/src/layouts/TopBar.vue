@@ -1,6 +1,9 @@
 <template>
   <div class="bg">
-    <label class="text">test</label>
+    <h4>logo</h4>
+    <h4>logo</h4>
+    <h4>logo</h4>
+    <h4>logo</h4>
   </div>
 </template>
 
@@ -8,4 +11,12 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  height: 10vh;
+}
+</style>

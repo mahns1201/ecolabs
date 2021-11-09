@@ -1,10 +1,16 @@
 <template>
-  <h1>Home</h1>
+  <div>
+    <TobBar />
+  </div>
 </template>
 
 <script>
+import TobBar from "../layouts/TopBar.vue";
+
 export default {
-  name: "Home",
+  components: {
+    TobBar,
+  },
 };
 </script>
 
