@@ -1,15 +1,15 @@
 <template>
   <div>
-    <TobBar />
+    <NavBar />
   </div>
 </template>
 
 <script>
-import TobBar from "../layouts/TopBar.vue";
+import NavBar from "../layouts/NavBar.vue";
 
 export default {
   components: {
-    TobBar,
+    NavBar,
   },
 };
 </script>
